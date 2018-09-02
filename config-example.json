@@ -1,0 +1,15 @@
+{
+    "watchers": [
+        {
+            "url": "http://websiteToWatch.com/pageToWatch?query=example",
+            "headers": "{\"user-agent\": \"watcher/1.0\"}",
+            "matchText": "text to find"
+        }
+    ],
+    "interval": 300000,
+    "awsRegion": "us-west-1",
+    "awsAccessKey": "",
+    "awsSecretKey": "",
+    "awsTopicArn": "",
+    "message": "Matched text ${matchText} on ${url}"
+}

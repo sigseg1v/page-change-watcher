@@ -1,0 +1,17 @@
+{
+  "name": "page-change-watcher",
+  "version": "1.0.0",
+  "description": "Watches a list of URLs until they contain some specified text, then notify you over AWS SNS",
+  "main": "watcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Verigin",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.307.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
